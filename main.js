@@ -141,9 +141,9 @@ const calculation = (totalCost = 0, anInitialFee = 100000, creditTerm = 1) => {
                 display: false,
             },
             // Turn off tooltips at chart
-            // tooltips: {
-            //     enabled: false,
-            // }
+            tooltips: {
+                enabled: false,
+            }
         },
     });
 }
